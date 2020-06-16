@@ -7,7 +7,7 @@
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "b1697a11-9c3c-11ea-a819-9cb6d0e887fa",
+            "crowdanki_uuid": "67a27524-a5ce-11ea-974a-9cb6d0e887fa",
             "dyn": false,
             "lapse": {
                 "delays": [
@@ -172,9 +172,7 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [
-                "Test"
-            ],
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "<div class=clozefield>{{cloze:Text}}</div>\n\n<!-- EDIT CLOZE DURING REVIEW-change below to  \"edit:cloze:Text\" for editable field, but be sure to have the correct add-on installed-->\n\n<div class=editcloze>{{cloze:Text}}</div>\n\n<hr>\n\n{{#Lecture Notes}}<div class=hints id=lecture>{{hint:Lecture Notes}}</div>{{/Lecture Notes}}\n\n{{#Missed Questions}}<div class=hints id=missed>{{hint:Missed Questions}}</div>{{/Missed Questions}}\n\n{{#Pathoma}}<div class=hints id=pathoma>{{hint:Pathoma}}</div>{{/Pathoma}}\n\n{{#Boards and Beyond}}<div class=hints id=bnb>{{hint:Boards and Beyond}}</div>{{/Boards and Beyond}}\n\n{{#Extra}}<div id=extra>{{edit:Extra}}</div>{{/Extra}}\n\n{{#First Aid}}<div class=hints id=firstaid>{{hint:First Aid}}</div>{{/First Aid}}\n\n{{#Sketchy}}<div class=hints id=sketchy>{{hint:Sketchy}}</div>{{/Sketchy}}\n\n{{#Physeo}}<div class=hints id=physeo>{{hint:Physeo}}</div>{{/Physeo}}\n\n{{#Additional Resources}}<div class=hints id=additional>{{hint:Additional Resources}}</div>{{/Additional Resources}}\n\n<br>\n<br>\n{{#Tags}}\n<div id=\"tags-container\">{{clickable::Tags}}</div>\n<script>\nvar tagContainer = document.getElementById(\"tags-container\")\nif (tagContainer.childElementCount == 0) {\n var tagList= tagContainer.innerHTML.split(\" \");\n var kbdList = [];\n var newTagContent = document.createElement(\"div\");\n\n for (var i = 0; i < tagList.length;  i++) {\n  var newTag = document.createElement(\"kbd\");\n  newTag.innerHTML = tagList[i];\n  newTagContent.append(newTag)\n }\n tagContainer.innerHTML = newTagContent.innerHTML;\n tagContainer.style.cursor = \"default\";\n}\n</script>\n{{/Tags}}\n\n<div id=pic><a href=\"https://www.ankingmed.com\">\n<img src=\"_AnKingRound.png\" alt=\"The AnKing\" style=height:50px;border:0;position:fixed;bottom:10px;right:10px;\">\n</a></div>",
@@ -238,6 +236,48 @@
             "tags": [
                 "Test"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eric is a&nbsp;{{c1::Pussy}}",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Bn5qg#u,wM",
+            "newlyAdded": false,
+            "note_model_uuid": "4cf0faad-a067-11ea-9258-9cb6d0e887fa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eric is a huge&nbsp;{{c1::chump}}",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dEY^JtZK|,",
+            "newlyAdded": false,
+            "note_model_uuid": "4cf0faad-a067-11ea-9258-9cb6d0e887fa",
+            "tags": []
         }
     ]
 }
